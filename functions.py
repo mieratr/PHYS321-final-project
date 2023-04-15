@@ -41,6 +41,7 @@ def pNew(beta, data):
     exponent = -beta[0]
     for i in range(len(data)):
         exponent -= beta[i+1]*data[i]
+
     return 1/(1+np.exp(exponent))
 
 def log_priorNew(beta):
