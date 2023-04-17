@@ -22,12 +22,16 @@ def test_pNew():
     prob2Arr = functions.pNew(np.array([[6,5],[3,4]]),np.array([[3,4]]))
     assert prob2Arr[0] == pytest.approx(1/(1+np.exp(-15)))
     assert prob2Arr[1] == pytest.approx(1/(1+np.exp(-21)))
-################################################################################
 
-'''def test_picky():
-    # Make sure that tools.picky raises an error if the
-    # wrong type is inputted
-    pytest.raises(TypeError, tools.picky, 'hey')
-'''
-test_p()
-test_pNew()
+def test_logPost():
+    value = functions.log_post(5.,np.array([0.5]),np.array([1]))
+    assert value == pytest.approx(-0.0788897)
+    value = functions.log_post(5.,np.array([0.5]),np.array([0]))
+    assert value == pytest.approx(-2.5788897)
+
+def test_logPostNew():
+    value = functions.log_postNew(np.array([5.,-3.]),np.array([0.5]),np.array([1]))
+    assert value == pytest.approx(-0.0297504)
+    value = functions.log_postNew(np.array([5.,-3.]),np.array([[0.5,0.75]]),np.array([1,0]))
+    assert value == pytest.approx(-2.841718007)
+################################################################################
