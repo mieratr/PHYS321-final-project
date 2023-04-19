@@ -1,0 +1,87 @@
+Final Project Marks
+----------------------------------------
+----------------------------------------
+### Clear description of your problem: 5/5
+
+5: Great description of the big picture goals, understandable to a non-specialist, good background
+4: Like 5, but with some flaws in one of the three areas above.
+3: Adequate descriptions
+2: Some serious misconceptions present in the description.
+1: Some attempt made
+0: No attempt made
+
+### Approach to your problem: 5/10
+
+10: Precisely the right tools to solve the problem at hand
+6-9: Generally the right approach but some flaws
+5: About a 50/50 balance between approaches that make sense and approaches that don't
+1-4: Mostly incorrect approaches, but some reasonable approaches here and there
+0: No attempt at a coherent approach to the problem.
+
+### Technical execution: 25/25
+
+15 points for implementation:
+15: Correct implementation of what was planned
+10: Some mistakes in coding, mostly non-fatal
+5: Some serious mistakes that would've affected the results
+0: No implementation
+
+10 points for good coding practices:
+10: Minimal hardcoding, nice modular code, few unnecessary loops
+5: lots of nested loops and hardcoding
+0: No effort to code well
+
+Subtract 2 points if there were very few git commits (e.g., all code submitted in one big chunk)
+
+### Documentation and testing: 5/5
+
+3 points for documentation:
+3: clear comments and descriptions
+2: some commenting and documentation
+1: minimal effort
+0: no documentation and testing
+
+2 points for testing:
+2: evidence of sensible testing
+1: badly formulated tests "for the sake of testing"
+0: no testing
+
+(Unit tests or docstring tests are ideal, but we'll accept any sort of evidence of testing, e.g., null tests to check that the code is working)
+
+### Presentation of results: 3/5
+
+5: Visually sensible plots that are easy to understand
+3: Generally good plots but with some flaws (e.g., missing axis labels)
+1: Some effort at presenting results properly.
+
+### Interpretation of results: 7/10
+
+10: Correct interpretation of results without overinterpretatoin
+5: Some questionable interpretation
+1: Some attempt at interpretation
+0: No interpretation
+
+### Creativity + critical thinking: 5/10
+
+See OECD rubric from final project description!
+10 points for great creativity/critical thinking in one (or more) categories
+5 points for some sort of creativity/critical thinking
+
+### Overall communication: 4/5
+
+5: Writeup presented logically, few typos
+3: Some slipups or a disorganized paper
+1: Final writeup is a mess
+0: Didn't include a writeup
+
+TOTAL: 59/75
+
+----------------------------------------
+General comments
+----------------------------------------
+--The poor results in Figure 1 are blamed on the simple form of Equation 1, but the data itself seems mislabeled. Figure 3 and Figure 4 have different vertical axes. Could the confusion in P(score) vs P(save) have caused the data to be mischaracterized?
+--Some tiny, difficult to read axis labels; also some axes are cut off.
+--Probably could've gone further on many analyses.
+
+My understanding is that Michael is graduating this term, so extra congratulations to Michael! Hope you all have a great summer!
+
